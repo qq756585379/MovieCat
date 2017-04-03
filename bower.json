@@ -1,0 +1,23 @@
+{
+  "name": "MovieCat",
+  "description": "先手动在项目根目录下创建src文件夹和README文件",
+  "main": "index.js",
+  "authors": [
+    "qq756585379 <756585379@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/qq756585379/MovieCat",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-route": "~1.5.0",
+    "angular-loader": "~1.5.0",
+    "bootstrap": "^3.3.6"
+  }
+}

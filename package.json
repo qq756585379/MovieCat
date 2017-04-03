@@ -1,0 +1,27 @@
+{
+  "name": "MovieCat",
+  "version": "1.0.0",
+  "description": "先手动在项目根目录下创建src文件夹和README文件",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "./node_modules/.bin/hs -a localhost -p 9000 -o",
+    "pretest": "npm install",
+    "test": "./node_modules/.bin/browser-sync start --server src --files 'src/index.html' --no-notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qq756585379/MovieCat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qq756585379/MovieCat/issues"
+  },
+  "homepage": "https://github.com/qq756585379/MovieCat#readme",
+  "devDependencies": {
+
+  }
+}
