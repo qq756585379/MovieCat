@@ -1,5 +1,8 @@
 # MovieCat
-### 用angularjs写的一个前端网页
+### 用angularjs和bootstrap写的一个前端网页，适配手机pc
+
+项目已经托管到分支gh-pages,pc浏览链接 https://qq756585379.github.io/MovieCat/src/
+手机端扫二维码 ![Image text](scan.png)
 
 先手动在项目根目录下创建src文件夹和README文件
 
